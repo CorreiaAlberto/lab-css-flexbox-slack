@@ -5,3 +5,473 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+@media screen and (max-width:768px) {
+    html {
+        max-width: 768px;
+    }
+    /*---------------------Nav bar-----------------*/
+    /* algo sucede cuando intento poner la posicion fixed*/
+    #navbar {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+     }
+     #navbar ul {
+        display: none;
+     }
+     #slacklogo {
+        height: 50%;
+        width: 30%;
+     }
+     /*---------------------header-----------------*/
+   header {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+ }
+ header h1 {
+    font-size: 8vw;
+    color:#2C303F; 
+ }
+ header p {
+    font-size: 4vw;
+    color: #5b5e6d;
+ }
+    #work-happening {
+    max-width: 70%;
+    max-height:70%;
+     /*---------------------Main article-----------------*/
+ } 
+ #Main-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ /*---------------------Main-top-----------------*/
+ .main-top {
+    background-color: #F4F3F4;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+ }
+ .main-top h2 {
+    font-size: 8vw;
+    color:#2C303F;
+ }
+ .main-top p {
+
+    font-size: 4vw;
+    color: #5b5e6d;
+ }
+ #btn {
+    background-color: white;
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 3vw;
+ }
+ #mail {
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 3vw;
+ }
+ /*---------------------images-----------------*/
+ .img-container div {
+    width: 100%;
+    background-color:#F4F3F4; ;
+ }
+ .img-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+ .companies {
+    width: 30%;
+    height: 7%;  /* no puedo cambiar la altura*/
+   }
+ /*---------------------Main-bot-----------------*/
+ .main-bot {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color:#5b5e6d; 
+     font-size: 4vw;
+ }
+ #btn2 {
+     width: 80%;
+     background-color: #192592;
+     border-radius: 10px;
+     color: white;
+     height: 60px;
+     font-size: 3vw;
+     padding: 20px;
+     }
+
+ /*---------------------top-Footer-----------------*/
+ .top-footer {
+    display: flex;
+    list-style: none;
+    align-content: space-between;
+ }
+/*---------------------bot-Footer-----------------*/
+ .bot-footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F3F4;
+    align-items: center;
+    justify-content: space-between;
+    color:#5b5e6d; 
+    font-weight: 500;
+
+ }
+ .footerul ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  
+ }
+ #Usflag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    align-content: space-around; /*no se aplica , no consigo darles espacios a estos iconos??*/
+ }
+ #flag {
+    width: 20px;
+    height: 20px;
+ }
+ #icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ }
+/*--------------------------------------------------------------Tamaño medio--------------------------------------------------*/
+ @media screen and (max-width:961px) {
+    #navbar {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #navbar ul {
+        display: none;
+    }
+    #slacklogo {
+        height: 30%;
+        width: 30%;
+    }
+     /*---------------------header-----------------*/
+   header {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+header h1 {
+    font-size: 8vw;
+    color:#2C303F; 
+}
+header p {
+    font-size: 4vw;
+    color: #5b5e6d;
+}
+    #work-happening {
+    max-width: 70%;
+    max-height:70%;
+     /*---------------------Main article-----------------*/
+} 
+#Main-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ /*---------------------Main-top-----------------*/
+.main-top {
+    background-color: #F4F3F4;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+}
+.main-top h2 {
+    font-size: 8vw;
+    color:#2C303F;
+}
+.main-top p {
+
+    font-size: 4vw;
+    color: #5b5e6d;
+}
+#btn {
+    background-color: white;
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 3vw;
+}
+#mail {
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 3vw;
+}
+ /*---------------------images-----------------*/
+.img-container div {
+    width: 100%;
+    background-color:#F4F3F4; ;
+}
+.img-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+ .companies {
+    width: 30%;
+    height: 7%;  /* no puedo cambiar la altura*/
+   }
+ /*---------------------Main-bot-----------------*/
+ .main-bot {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     color:#5b5e6d; 
+     font-size: 4vw;
+ }
+ #btn2 {
+     width: 20%;
+     background-color: #192592;
+     border-radius: 10px;
+     color: white;
+     height: 60px;
+     font-size: 3vw;
+     padding: 20px;
+     }
+
+ /*---------------------top-Footer-----------------*/
+.top-footer {
+    display: flex;
+    list-style: none;
+    align-content: space-between;
+}
+/*---------------------bot-Footer-----------------*/
+.bot-footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F3F4;
+    align-items: center;
+    justify-content: space-between;
+    color:#5b5e6d; 
+    font-weight: 500;
+
+}
+.footerul ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  
+}
+#Usflag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    align-content: space-around; /*no se aplica , no consigo darles espacios a estos iconos??*/
+}
+#flag {
+    width: 20px;
+    height: 20px;
+}
+#icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+   
+    
+    
+
+
+ }
+
+ /*--------------------------------------------------------------Tamaño grande--------------------------------------------------*/
+ @media screen and (min-width: 1200px) {
+    #navbar {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #navbar ul {
+        display: none;
+    }
+    #slacklogo {
+        height: 50%;
+        width: 30%;
+    }
+     /*---------------------header-----------------*/
+   header {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+header h1 {
+    font-size: 8vw;
+    color:#2C303F; 
+}
+header p {
+    font-size: 4vw;
+    color: #5b5e6d;
+}
+    #work-happening {
+    max-width: 70%;
+    max-height:70%;
+     /*---------------------Main article-----------------*/
+} 
+#Main-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ /*---------------------Main-top-----------------*/
+.main-top {
+    background-color: #F4F3F4;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+}
+.main-top h2 {
+    font-size: 8vw;
+    color:#2C303F;
+}
+.main-top p {
+
+    font-size: 4vw;
+    color: #5b5e6d;
+}
+#btn {
+    background-color: white;
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 3vw;
+}
+#mail {
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 3vw;
+}
+ /*---------------------images-----------------*/
+.img-container div {
+    width: 100%;
+    background-color:#F4F3F4; ;
+}
+.img-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+ .companies {
+    width: 30%;
+    height: 7%;  /* no puedo cambiar la altura*/
+   }
+ /*---------------------Main-bot-----------------*/
+ .main-bot {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color:#5b5e6d; 
+     font-size: 4vw;
+ }
+ #btn2 {
+     width: 80%;
+     background-color: #192592;
+     border-radius: 10px;
+     color: white;
+     height: 60px;
+     font-size: 3vw;
+     padding: 20px;
+     }
+
+ /*---------------------top-Footer-----------------*/
+.top-footer {
+    display: flex;
+    list-style: none;
+    align-content: space-between;
+}
+/*---------------------bot-Footer-----------------*/
+.bot-footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F3F4;
+    align-items: center;
+    justify-content: space-between;
+    color:#5b5e6d; 
+    font-weight: 500;
+
+}
+.footerul ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  
+}
+#Usflag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    align-content: space-around; /*no se aplica , no consigo darles espacios a estos iconos??*/
+}
+#flag {
+    width: 20px;
+    height: 20px;
+}
+#icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+}
