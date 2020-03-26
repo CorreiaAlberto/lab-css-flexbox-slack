@@ -157,7 +157,7 @@ header p {
   display: flex;
   flex-direction: row;
 }
-
+/*-----------------------------------------Telefono------------------------*/
 @media screen and (max-width: 768px) {
   html {
     max-width: 768px;
@@ -167,13 +167,25 @@ header p {
     height: 35%;
     align-items: center;
   }
+  #Header-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #mail {
+    width: 100%;
+  }
+  #btn {
+    width: 100%;
+  }
 }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/*-----------------------------------------Tablet------------------------*/
+@media only screen and (min-width: 767px) and (max-width: 961px) {
   html {
     max-width: 1024px;
     min-width: 769px;
   }
+  /*-------------navbar-----------*/
   br {
     display: none;
   }
@@ -181,8 +193,9 @@ header p {
     height: 25%;
     width: 20%;
   }
+  /*-------------header-----------*/
   #btn {
-    width: 20%;
+    width: 30%;
     background-color: #192592;
     text-align: center;
     border-radius: 10px;
@@ -191,10 +204,31 @@ header p {
     font-size: 3vw;
     padding: 20px;
   }
+  #Header-form input {
+    width: 50%;
+  }
+
+  /*-------------Main-----------*/
+  .main-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main-bot-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .main-bot h3 {
+    font-size: 2 vw;
+  }
+  .main-bot p {
+    font-size: 2vw;
+  }
 
   #mail {
-    width: 50%;
-    height: 60px;
+    width: 30%;
+    height: 80px;
     border-radius: 10px;
     margin-left: 10px;
     font-size: 3vw;
@@ -205,6 +239,180 @@ header p {
   }
   #work-happening {
     margin: 15%;
+  }
+  #btn2 {
+    width: 30%;
+  }
+  /*---------------------images-----------------*/
+  .img-container div {
+    width: 49%;
+    height: 200px;
+    background-color: #f4f3f4;
+  }
+  .img-container {
+    display: inline;
+  }
+  .companies {
+    width: 30%;
+    height: 60%;
+    align-items: center;
+  }
+}
+/*-----------------------------------------Portatil------------------------*/
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+  br {
+    display: none;
+  }
+  #slacklogo {
+    height: 25%;
+    width: 20%;
+  }
+  /*-------------header-----------*/
+  #btn {
+    width: 30%;
+    background-color: #192592;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    height: 80px;
+    font-size: 3vw;
+    padding: 20px;
+  }
+  #Header-form input {
+    width: 50%;
+  }
+  /*-------------Main-----------*/
+  .main-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main-bot-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .main-bot h3 {
+    font-size: 2 vw;
+  }
+  .main-bot p {
+    font-size: 2vw;
+  }
+
+  #mail {
+    width: 30%;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 3vw;
+    margin: 30px;
+  }
+  header {
+    display: inline;
+  }
+  #work-happening {
+    margin: 15%;
+  }
+  #btn2 {
+    width: 30%;
+  }
+  /*---------------------images-----------------*/
+  .img-container div {
+    width: 49%;
+    height: 200px;
+    background-color: #f4f3f4;
+  }
+  .img-container {
+    display: inline;
+  }
+  .companies {
+    width: 30%;
+    height: 60%;
+    align-items: center;
+  }
+}
+/*-----------------------------------------Pantalla grande------------------------*/
+@media only screen and (min-width: 1200px) {
+  #slacklogo {
+    width: 8vw;
+    height: 6vw;
+  }
+
+  #navbar ul {
+    display: contents;
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+  }
+  #navbar li {
+    margin: 15px;
+  }
+  #navbar i {
+    display: none;
+  }
+
+  /*------header---------*/
+  #btn {
+    width: 16vw;
+    background-color: #192592;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    height: 80px;
+    font-size: 1vw;
+    padding: 20px;
+  }
+  #Header-form input {
+    width: 50%;
+  }
+
+  #head {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #head h1 {
+    font-size: 3vw;
+  }
+  #head p {
+    font-size: 2vw;
+  }
+  #mail {
+    display: none;
+  }
+  /*-------------Main-----------*/
+  .main-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main-bot-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .main-bot h3 {
+    font-size: 2 vw;
+  }
+  .main-bot p {
+    font-size: 2vw;
+  }
+
+  #mail {
+    width: 30%;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 3vw;
+    margin: 30px;
+  }
+  header {
+    display: inline;
+  }
+  #work-happening {
+    margin: 15%;
+  }
+  #btn2 {
+    width: 30%;
   }
   /*---------------------images-----------------*/
   .img-container div {

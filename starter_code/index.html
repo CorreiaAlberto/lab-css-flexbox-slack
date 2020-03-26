@@ -30,24 +30,26 @@
     </nav>
     <hr />
     <!-----------------------------------Header---------------------------------->
-    <header>
-      <h1>
-        Where Work <br />
-        Happens
-      </h1>
-      <p>
-        When your team needs to kick off a <br />
-        project, hire a new employee, deploy some <br />
-        code, review a sales contract, finalize next <br />
-        year's budget, measure an A/B test, plan <br />
-        your next office opening, and more, Slack <br />
-        has you covered.
-      </p>
-
-      <input id="mail" type="email" placeholder="Email adress" />
-      <button id="btn" type="button" name="button">GET STARTED</button>
-      <p>Already using Slack? <a href="#">Sign in</a></p>
-
+    <header id="head">
+      <div>
+        <h1>
+          Where Work <br />
+          Happens
+        </h1>
+        <p>
+          When your team needs to kick off a <br />
+          project, hire a new employee, deploy some <br />
+          code, review a sales contract, finalize next <br />
+          year's budget, measure an A/B test, plan <br />
+          your next office opening, and more, Slack <br />
+          has you covered.
+        </p>
+        <div id="Header-form">
+          <input id="mail" type="email" placeholder="Email adress" />
+          <button id="btn" type="button" name="button">GET STARTED</button>
+          <p>Already using Slack? <a href="#">Sign in</a></p>
+        </div>
+      </div>
       <div>
         <img
           id="work-happening"
@@ -57,8 +59,9 @@
       </div>
     </header>
     <!-----------------------------------Main---------------------------------->
+
+    <!-----------------------------------Main-top---------------------------------->
     <main id="Main-article">
-      <!-----------------------------------Main-top---------------------------------->
       <div class="main-top">
         <h2>You're in good company</h2>
         <p>
@@ -96,10 +99,14 @@
       </div>
       <!-----------------------------------Main-bot---------------------------------->
       <div class="main-bot">
-        <h3>Try it for free</h3>
-        <p>Already using Slack? <a href="">Sign in</a></p>
-        <input id="mail" type="email" placeholder="Email adress" />
-        <button id="btn" type="button" name="button">GET STARTED</button>
+        <div>
+          <h3>Try it for free</h3>
+          <p>Already using Slack? <a href="">Sign in</a></p>
+        </div>
+        <div class="main-bot-position">
+          <input id="mail" type="email" placeholder="Email adress" />
+          <button id="btn" type="button" name="button">GET STARTED</button>
+        </div>
       </div>
     </main>
     <hr />
